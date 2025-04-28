@@ -11,22 +11,23 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
     width: 200px;
-    height: 120px;
-    position:relative;
+    height: auto;
+    position: relative;
     top: 0;
-    bottom:100px;
     left: 10px;
     z-index: 10;
 }
 
 .header {
-    text-align:left;
-    padding:20px;
+    text-align: left;
+    padding: 20px;
 }
 
 .nav ul {
@@ -36,9 +37,8 @@ body {
     padding: 10px;
     background-color: rgba(255, 242, 242, 0.7);
     margin: 0;
-
 }
-  
+
 .nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -59,7 +59,6 @@ body {
     color: rgb(0, 0, 0);
     text-align: justify;
     line-height: 1.8;
-    /* Ajusta o espaçamento entre linhas */
 }
 
 .link-whatsapp img {
@@ -74,16 +73,20 @@ body {
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 @media (max-width: 768px) {
     .logo {
-        width: 60px;
+        width: 100px;
         left: 0;
     }
 
     .section {
         width: 90%;
+    }
+
+    .nav a {
+        margin-left: 20px;
     }
 }
