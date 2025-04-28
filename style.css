@@ -17,15 +17,16 @@ body {
 .logo {
     width: 200px;
     height: 120px;
-    position: relative;
+    position:relative;
     top: 0;
-    right: 650px;
+    bottom:100px;
+    left: 10px;
     z-index: 10;
 }
 
 .header {
-    text-align: center;
-    padding: 20px;
+    text-align:left;
+    padding:20px;
 }
 
 .nav ul {
@@ -37,7 +38,7 @@ body {
     margin: 0;
 
 }
-
+  
 .nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
