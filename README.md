@@ -4,7 +4,7 @@
 <h3>Projeto que fiz como freelancer</h3>
 <br>
 <br>
-<p> O Studio Mega Star é uma aplicação web dinâmica e responsiva, projetada para proporcionar uma experiência elegante e intuitiva aos usuários. A página apresenta uma interface simples, com um design moderno e funcionalidade fluida, ideal para demonstrar habilidades em desenvolvimento front-end com HTML e CSS .
+<p> O Studio Mega Star é uma aplicação web dinâmica e responsiva, projetada para proporcionar uma experiência elegante e intuitiva aos usuários. A página apresenta uma interface simples, com um design moderno e funcionalidade fluida, ideal para demonstrar habilidades em desenvolvimento front-end com HTML, CSS e JAVASCRIPT.
 
  </p>
 <h2>tecnologias utilizadas</h2>
